@@ -83,7 +83,7 @@ setSearch(e.target.value)
             <td className='text-white'>{item.vote_average}</td>
             <td className='text-white'>{item.popularity}</td>
             <td className='text-white'>{geners[item.genre_ids[0]]}</td>
-            <td onClick={()=>{RemovefromWatchlist(item)}} className='text-red-700 font-bold'>Delete</td>
+            <td onClick={()=>{RemovefromWatchlist(item)}} className='text-red-700 hover:cursor-pointer font-bold'>Delete</td>
   </tr>
   </>)
 
